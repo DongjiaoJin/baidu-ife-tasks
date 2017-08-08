@@ -1,0 +1,148 @@
+
+
+
+body {
+	background-color: #ccc;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+	background-color: #000;
+	color:#FFF;
+	/*height:60px;*/
+	width:100%;
+	position: relative;
+	font-size: 0.8rem;
+	
+}
+
+h1.headerTitle {
+	margin-top: 0;
+	padding-left: 20px;
+	paddiing-bottom: 3px;
+}
+
+ul.headerLink {
+	position: absolute;
+	right: 10px;
+	top: 0;
+
+}
+
+
+ul.headerLink a {
+	float: right;
+	text-decoration: none;
+	color: white;
+
+
+}
+
+ul.headerLink a.clicked {
+	color: #CCC;
+}
+
+
+
+ul.headerLink li {
+	display: inline-block;
+	
+}
+
+
+section, aside {
+	background-color: white;
+	margin: 10px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border: solid 1px white;
+}
+
+/* figure */
+figure {
+	border: 1px solid #CCC;
+	padding: 15px;
+	width: 300px;
+}
+
+figcaption {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/* table */
+table {
+	border-collapse: collapse;
+    width:100%;
+
+}
+
+td, th {
+	border: 1px solid #CCC;
+	padding-left: 5px;
+
+}
+
+th {
+	color: #FFF;
+	background-color: #333;
+	text-align: left;
+}
+
+table tr:last-child {
+	background-color: #CCC;
+	font-weight: bold;
+}
+
+/* form */
+aside.formArea {
+	font-size: 0.9rem;
+}
+
+.label {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-left: 200px;
+}
+	
+.prompt {
+	color: #CCC;
+	margin-left: 415px;
+}
+
+
+form textarea {
+	width: 500px;
+	height: 100px;
+	font-size: 1.1rem;
+}
+
+
+
+form input[type='submit'] {
+	padding: 8px 450px 8px 450px;
+	color: white;
+	background-color: #4169e1;
+	border-radius: 10px;
+}
+
+
+
+/* footer */
+
+footer {
+	background-color: #000;
+	color:#FFF;
+	text-align: center;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+
+
+
