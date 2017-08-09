@@ -1,0 +1,69 @@
+/* preset */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	height: 480px;
+	height: auto;
+	min-height: 480px;
+}
+
+
+.left, .intro, .right {
+	border: 1px solid #999;
+	padding: 20px;
+    background-color: #FFF;
+
+}
+
+/* left box */
+
+.left {
+	width: 200px;
+	float: left;
+	position: relative;
+}
+
+.left h3 {
+     position: absolute;
+     right: 3px;
+     top: 20px;
+}
+
+/* middle box */
+
+.intro{
+	width: auto;
+	margin: 0 140px 0 220px;
+/*	overflow: scroll;*/
+
+}
+
+
+/* right box */
+.right {
+	width: 120px;
+	float: right;
+}
+
+.right img {
+	margin-bottom: 15px;
+}
+
+.right img:last-child {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
