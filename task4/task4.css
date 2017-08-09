@@ -1,0 +1,31 @@
+/** {
+	box-sizing: border-box;
+}*/
+
+.greyBox {
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -100px 0 0 -200px;
+}
+
+.yellowBox1 {
+	border-bottom-right-radius:50px;
+	background-color: #fc0;
+    width: 50px;
+    height: 50px;
+}
+
+.yellowBox2 {
+	border-top-left-radius:50px;
+	background-color: #fc0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
